@@ -2,13 +2,18 @@
   height: 340px;
   padding: 32px;
   margin: 32px auto;
-  background-color: #efefef;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #ffeef8 0%, #f0e6ff 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(200, 180, 220, 0.15);
 }
 
 .stage__mistakes {
   text-align: center;
   margin-bottom: 64px;
+  font-size: 20px;
+  color: #9b7eb5;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .stage__words {
@@ -16,4 +21,5 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  gap: 12px;
 }
